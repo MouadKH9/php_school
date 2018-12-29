@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../webfonts/Roboto-Light.ttf");
+}
+body {
+  background-color: #eaeaeaee;
+  font-family: "Roboto";
+}
+nav a {
+  color: white !important;
+  font-size: 1.3em;
+}
+header h4 {
+  padding: 4px;
+}
+
+div.form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0;
+}
+
+div.form form {
+  padding: 13px 30px 13px 30px;
+}
+
+div.form input {
+  width: 78%;
+  display: inline-block;
+}
+
+div.form label {
+  min-width: 20%;
+}
+
+div.form small {
+  text-align: right;
+  padding-right: 10px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.error input {
+  border-color: red;
+}
+.error small {
+  opacity: 1 !important;
+}
+
+div.table {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5%;
+}
+div.table table {
+  text-align: center;
+}
+div.table i {
+  cursor: pointer;
+}
+.fa-spinner {
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+.notification {
+  z-index: 99999999999999999999999999;
+  position: fixed;
+  right: 15px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.notification {
+  background-image: linear-gradient(
+    135deg,
+    transparent,
+    transparent 25%,
+    hsla(0, 0%, 0%, 0.04) 25%,
+    hsla(0, 0%, 0%, 0.04) 50%,
+    transparent 50%,
+    transparent 75%,
+    hsla(0, 0%, 0%, 0.04) 75%,
+    hsla(0, 0%, 0%, 0.04)
+  );
+  background-size: 20px 20px;
+}
+
+button#add {
+  background: white;
+  color: #297bfe;
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+button#add:hover {
+  border: 1px solid #297bfe;
+}
+
+button.valider {
+  width: 100%;
+}
+
+.control label {
+  width: 25%;
+}
+
+.controls select {
+  width: 70%;
+  display: inline-block;
+}
+
+.empty h6 {
+  width: 100%;
+  text-align: center;
+  color: rgb(134, 134, 134);
+}
+
+td button {
+  background: none;
+  border: none;
+}
+
+.edit-nom,
+.edit-prenom,
+.edit-confirm {
+  display: none;
+}
+.edit span,
+.edit i {
+  display: none;
+}
+.edit .edit-nom,
+.edit .edit-prenom,
+.edit .edit-confirm {
+  display: initial;
+}
+.strong{
+  background-color: #FFE60D;
+}
+#show{
+  background: white;
+  color: #297bfe;
+  border: 1px solid #297bfe;
+  border-radius: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#show:hover{
+  background: #297bfe;
+  color: white;
+
+}
